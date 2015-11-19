@@ -3,7 +3,7 @@ Options +FollowSymLinks
 RewriteEngine on
 
 
-# verb dataset
+# verb dataset for acrossx
 # ---------------------------
 # Rewrite rule to serve HTML content from the vocabulary URI if requested
 RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)
